@@ -1,0 +1,57 @@
+@font-face{
+    font-size: Galsalt;
+    src: url(../font/Galsalt-Black.ttf);
+}
+body{
+    background-color:aqua;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin: 200px;
+    padding-bottom: 35px;
+    padding-top: 35;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: bisque;
+}
+.name{
+    font-family: Galsalt-Black;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.bio{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile-picture{
+    clip-path: circle();
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140;
+    height: 140px;
+    border-radius: 100px;
+    text-align: center;
+    font-weight: 100;
+}
+.social-icon{
+    width: 4%;
+}
+.social-link{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: aqua;
+}
+.social-link:hover{
+    border: solid #1e8cd5eb 1px;
+    border-radius: 20px;
+    background-color: bisque;
+    color: aliceblue;
+}
